@@ -1,0 +1,16 @@
+:root {
+  --color-accent: #fffb1f;
+  --color-background-dark: #0b0c10;
+  --color-text-dark: #ffffff;
+}
+
+html {
+  font-family: system-ui, sans-serif;
+  background: var(--color-background-dark);
+  color: var(--color-text-dark);
+  background-size: 224px;
+}
+
+img {
+  color: var(--color-text-dark);
+}
