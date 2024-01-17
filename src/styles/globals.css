@@ -4,6 +4,15 @@
   --color-text-dark: #ffffff;
 }
 
+@font-face {
+  font-family: "Adjusted Arial Fallback";
+  src: local(Arial);
+  size-adjust: 97%;
+  ascent-override: 101%;
+  descent-override: 27%;
+  line-gap-override: 5%;
+}
+
 html {
   font-family: system-ui, sans-serif;
   background: var(--color-background-dark);
@@ -13,4 +22,12 @@ html {
 
 img {
   color: var(--color-text-dark);
+}
+
+body {
+  font-family: "Source Sans Pro", "Adjusted Arial Fallback", sans-serif;
+}
+
+span.emoji {
+  font-family: "Segoe UI Emoji", emoji;
 }
